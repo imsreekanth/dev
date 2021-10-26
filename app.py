@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/hello/')
-def hello_world():
+def hello_prod():
     return 'Hello prod!\n'
 
 @app.route('/hello/<username>') # dynamic route
